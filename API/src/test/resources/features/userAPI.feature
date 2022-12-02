@@ -68,7 +68,7 @@ Feature: user API testing
   Scenario: Put update photo profile user
     Given Put update photo profile user with valid json
     When Send post regist new user
-    Then Status code should be 200 "Update success"
+    Then Status code should be 400 "missing or malformed jwt"
     And Validate success update with valid json
 
 

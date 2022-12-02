@@ -66,9 +66,4 @@ public class postRegistInvalidUserStepdef {
         File json = new File(userAPI.JSON_REG_BODY + "/postRegistValidUser.json");
         UserAPI.setPostRegistNewUser(json);
     }
-
-    @Given("Put update photo profile user with valid json")
-    public void putUpdatePhotoProfileUserWithValidJson() {
-
-    }
 }
