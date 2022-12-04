@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "adoptionid": {
+          "type": "integer"
+        },
+        "ownercity": {
+          "type": "string"
+        },
+        "ownername": {
+          "type": "string"
+        },
+        "ownerphoto": {
+          "type": "string"
+        },
+        "petname": {
+          "type": "string"
+        },
+        "petphoto": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "adoptionid",
+        "ownercity",
+        "ownername",
+        "ownerphoto",
+        "petname",
+        "petphoto",
+        "status"
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "code",
+    "data",
+    "message"
+  ]
+}

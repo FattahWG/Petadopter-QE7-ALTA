@@ -1,0 +1,217 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "seekerphoto": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "ownerid",
+            "ownername",
+            "petname",
+            "seekerid",
+            "seekername",
+            "seekerphoto",
+            "status"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "seekerphoto": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "ownerid",
+            "ownername",
+            "petname",
+            "seekerid",
+            "seekername",
+            "seekerphoto",
+            "status"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "seekerphoto": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "ownerid",
+            "ownername",
+            "petname",
+            "seekerid",
+            "seekername",
+            "seekerphoto",
+            "status"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "seekerphoto": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "ownerid",
+            "ownername",
+            "petname",
+            "seekerid",
+            "seekername",
+            "seekerphoto",
+            "status"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "seekerphoto": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "ownerid",
+            "ownername",
+            "petname",
+            "seekerid",
+            "seekername",
+            "seekerphoto",
+            "status"
+          ]
+        }
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "code",
+    "data",
+    "message"
+  ]
+}
