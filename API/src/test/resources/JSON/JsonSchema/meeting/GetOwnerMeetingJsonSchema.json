@@ -1,0 +1,1379 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "adoptionid": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            },
+            "meetingid": {
+              "type": "integer"
+            },
+            "owneraddress": {
+              "type": "string"
+            },
+            "ownerid": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "ownerphoto": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "seekerid": {
+              "type": "integer"
+            },
+            "seekername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "adoptionid",
+            "date",
+            "meetingid",
+            "owneraddress",
+            "ownerid",
+            "ownername",
+            "ownerphoto",
+            "petname",
+            "petphoto",
+            "seekerid",
+            "seekername",
+            "status",
+            "time"
+          ]
+        }
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "code",
+    "data",
+    "message"
+  ]
+}
