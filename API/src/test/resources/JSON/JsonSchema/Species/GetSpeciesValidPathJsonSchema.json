@@ -1,0 +1,232 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "species"
+          ]
+        }
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "code",
+    "data",
+    "message"
+  ]
+}
