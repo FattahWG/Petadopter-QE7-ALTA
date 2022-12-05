@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Petadopter-QE7-ALTA" />
+        <module name="AutomationSauce" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Petadopter-QE7-ALTA" target="1.8" />
+      <module name="AutomationSauce" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
