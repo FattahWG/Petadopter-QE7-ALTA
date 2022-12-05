@@ -9,6 +9,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty"},
         features = "classpath:features",
-        tags = "@API or @userAPI"
+        tags = "@API or @userAPI or @meeting"
 )
 public class CucumberTestSuite {}

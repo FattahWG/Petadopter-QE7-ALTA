@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "meetingid": {
+          "type": "integer"
+        },
+        "time": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "meetingid",
+        "time",
+        "date"
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "code",
+    "data",
+    "message"
+  ]
+}
