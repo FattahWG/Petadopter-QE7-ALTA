@@ -1,9 +1,12 @@
 package com.example.pageObject;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import javax.xml.xpath.XPath;
 
 public class LoginPage {
     public static WebDriver driver;
@@ -25,6 +28,10 @@ public class LoginPage {
     @FindBy(id = "loginButton")
     private WebElement loginButton;
 
+    @FindBy(xpath ="//a[@class='bs-alert-close']")
+    private WebElement LogOk;
+
+
     public void setUsername(String user){
         username.sendKeys(user);
     }
@@ -33,8 +40,11 @@ public class LoginPage {
         password.sendKeys(pwd);
     }
 
-    public void clickLogin( ){
+    public void clickLogin(){
         loginButton.click();
+    }
+    public void clickLogin1(){
+        LogOk.click();
     }
 
     public boolean isDisplayed(){

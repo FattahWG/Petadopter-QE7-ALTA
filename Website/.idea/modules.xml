@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AutomationSauce.iml" filepath="$PROJECT_DIR$/AutomationSauce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PetAdopter.iml" filepath="$PROJECT_DIR$/PetAdopter.iml" />
     </modules>
   </component>
 </project>

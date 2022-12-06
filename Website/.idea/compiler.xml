@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AutomationSauce" />
+        <module name="PetAdopter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AutomationSauce" target="1.8" />
+      <module name="PetAdopter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

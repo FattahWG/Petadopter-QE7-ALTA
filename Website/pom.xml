@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>AutomationSauce</artifactId>
+  <artifactId>PetAdopter</artifactId>
   <version>1.0-SNAPSHOT</version>
 
 
@@ -128,10 +128,7 @@
               <projectName>Project Name</projectName>
               <outputDirectory>${project.build.directory}/Report/cucumber-reports</outputDirectory>
               <cucumberOutput>${project.build.directory}/cucumber/cucumber.json</cucumberOutput>
-
               <skippedFails>true</skippedFails>
-
-
             </configuration>
           </execution>
         </executions>

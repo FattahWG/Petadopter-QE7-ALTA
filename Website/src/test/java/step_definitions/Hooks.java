@@ -12,7 +12,7 @@ public class Hooks {
     @Before
     public void openBrowser(){
         System.setProperty("webdriver.chrome.driver",
-                "/home/fattah/Downloads/Programs/Automation-on-website-saucedemo-master/driver/chromedriver");
+                "/home/fattah/Documents/GitHub/Petadopter-QE7-ALTA/Website/driver/chromedriver");
         webDriver= new ChromeDriver();
         String URL = "https://pet-adopter-frontend.vercel.app/";
         webDriver.get(URL);
