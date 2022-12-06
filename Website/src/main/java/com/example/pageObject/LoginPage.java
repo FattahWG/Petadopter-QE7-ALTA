@@ -1,6 +1,7 @@
 package com.example.pageObject;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -44,7 +45,6 @@ public class LoginPage {
         loginButton.click();
     }
     public void clickLogin1(){
-        LogOk.click();
     }
 
     public boolean isDisplayed(){

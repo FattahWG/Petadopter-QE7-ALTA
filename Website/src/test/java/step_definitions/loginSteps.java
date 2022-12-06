@@ -8,7 +8,10 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 
+import static com.example.pageObject.LoginPage.driver;
 import static org.junit.Assert.assertEquals;
 
 
@@ -24,26 +27,22 @@ public class loginSteps {
     public void verifyLoginPage(){
 
     }
-
-
-    @Then("user will see")
-    public void userWillSee() {
-        LoginPage loginPage = new LoginPage(webDriver);
-        loginPage.clickLogin1();
-    }
-
     @Given("User open the web pag")
     public void userOpenTheWebPag() {
         LoginPage loginPage = new LoginPage(webDriver);
         loginPage.isDisplayed();
     }
-
     @When("User input \"([^\"]*)\" as userName and \"([^\"]*)\" as passwordd")
-    public void inputCredential(String userName, String password){
+    public void inputCredential(String userName, String password) throws InterruptedException{
         LoginPage loginPage = new LoginPage(webDriver);
         loginPage.setUsername(userName);
         loginPage.setPassword(password);
         loginPage.clickLogin();
-        loginPage.clickLogin1();
+        Thread.sleep(5000);
     }
+    @Then("user will see")
+    public void userWillSee() {
+        driver.switchTo().alert().accept();
+    }
+
 }
