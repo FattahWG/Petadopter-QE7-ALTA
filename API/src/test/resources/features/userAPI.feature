@@ -67,8 +67,8 @@ Feature: user API testing
   @API @UserAPI
   Scenario: Put update photo profile user
     Given Put update photo profile user with multipart
-    When Send post regist new user
-    Then Status code should be 200 "Update Success"
+    When Send post regist update photo
+    Then Status code should be 200 "Update success"
     And Validate success update with valid json
 
   @UserAPI

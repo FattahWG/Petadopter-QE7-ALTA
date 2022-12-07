@@ -84,15 +84,19 @@ public class UserSteps {
         SerenityRest.then().statusCode(value)
                 .body(userResponse.MESSAGE, equalTo(response));
     }
-
     @And("Validate regist success with valid json")
     public void validateRegistSuccessWithValidJson() {
         File json = new File(userAPI.JSON_SCHEMA + "/postResponseSchema.json");
         SerenityRest.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
+
     @Given("Put update photo profile user with multipart")
     public void setPutUpdat() {
         UserAPI.setPut();
+    }
+    @When("Send post regist update photo")
+    public void sendPostRegistUpdatePhoto() {
+        SerenityRest.when().put(userAPI.UserAPI);
     }
 
     @And("Validate success update with valid json")
@@ -132,4 +136,6 @@ public class UserSteps {
         File json = new File(userAPI.JSON_SCHEMA + "/DeleteResponseSchema.json");
         SerenityRest.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
+
+
 }
