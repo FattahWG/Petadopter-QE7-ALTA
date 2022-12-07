@@ -66,9 +66,24 @@ Feature: user API testing
 
   @API @UserAPI
   Scenario: Put update photo profile user
-    Given Put update photo profile user with valid json
+    Given Put update photo profile user with multipart
     When Send post regist new user
-    Then Status code should be 400 "missing or malformed jwt"
+    Then Status code should be 200 "Update Success"
     And Validate success update with valid json
+
+  @UserAPI
+  Scenario: Get user data
+    Given Get user data
+    When Send Get user data request
+    Then Status code should be 200 "get data success"
+    And Validate get user success with valid json
+
+  Scenario: Delete User
+    Given Delete User
+    When Send delete user request
+    Then Status code should be 200 "success delete user"
+    And Validate delete success with valid json
+
+
 
 

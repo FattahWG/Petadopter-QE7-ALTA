@@ -90,10 +90,9 @@ public class UserSteps {
         File json = new File(userAPI.JSON_SCHEMA + "/postResponseSchema.json");
         SerenityRest.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
-    @Given("Put update photo profile user with valid json")
-    public void setPutUpdate() {
-        String foto =userAPI.Photos + "/jacob.jpg";
-        UserAPI.setPutUpdate(foto);
+    @Given("Put update photo profile user with multipart")
+    public void setPutUpdat() {
+        UserAPI.setPut();
     }
 
     @And("Validate success update with valid json")
@@ -102,4 +101,35 @@ public class UserSteps {
         SerenityRest.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
 
+    @Given("Get user data")
+    public void getUserData() {
+        UserAPI.userdata();
+    }
+
+    @When("Send Get user data request")
+    public void sendGetUserDataRequest() {
+        SerenityRest.when().get(userAPI.UserAPI);
+    }
+
+    @Given("Delete User")
+    public void deleteUser() {
+        UserAPI.deleteuser();
+    }
+
+    @When("Send delete user request")
+    public void sendDeleteUserRequest() {
+        SerenityRest.when().delete(userAPI.UserAPI);
+    }
+
+    @And("Validate get user success with valid json")
+    public void validateGetUserSuccessWithValidJson() {
+        File json = new File(userAPI.JSON_SCHEMA + "/getdataValidUserSchema.json");
+        SerenityRest.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(json));
+    }
+
+    @And("Validate delete success with valid json")
+    public void validateDeleteSuccessWithValidJson() {
+        File json = new File(userAPI.JSON_SCHEMA + "/DeleteResponseSchema.json");
+        SerenityRest.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(json));
+    }
 }
