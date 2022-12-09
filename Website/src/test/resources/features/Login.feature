@@ -1,4 +1,4 @@
-@login
+@AdopterWeb @login
 Feature: Login feature
   as user i want to login to web
 

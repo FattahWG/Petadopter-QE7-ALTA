@@ -22,6 +22,8 @@ public class HomePage {
     private WebElement hamburgerButton;
     @FindBy(css = ".w-72")
     private WebElement invitationBox;
+    @FindBy(css = ".ml-2")
+    private WebElement themaToggle;
 
     public boolean discoverWordIsDisplayed(){
         discoverWord.isDisplayed();
@@ -36,6 +38,7 @@ public class HomePage {
     public void clickHamburgerButton(){
         hamburgerButton.click();
     }
+    public void clickThema(){themaToggle.click();}
     public boolean invitationIsDisplayed(){
         invitationBox.isDisplayed();
         return true;

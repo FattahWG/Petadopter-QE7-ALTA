@@ -56,4 +56,5 @@ public class LoginSteps {
         Assert.assertEquals(errorMsg,loginPage.getTextUserNameField());
         Thread.sleep(1000);
     }
+
 }
