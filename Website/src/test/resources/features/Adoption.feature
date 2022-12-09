@@ -31,3 +31,8 @@ Feature: Adoption pet
   Scenario: Verify user able to see invitation meeting from owner
     When user go to My Invitations page
     Then user will see invitation meeting from owner pet
+
+  @positive
+  Scenario: User canceling their adoption request
+    When user go to adoption history
+    Then user cancel their adoption request

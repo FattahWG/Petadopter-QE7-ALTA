@@ -79,4 +79,10 @@ public class AdoptionSteps {
         homePage.invitationIsDisplayed();
         Thread.sleep(5000);
     }
+
+    @Then("^user cancel their adoption request$")
+    public void userCancelTheirAdoptionRequest() {
+        AdoptionPage adoptionPage = new AdoptionPage(webDriver);
+        adoptionPage.clickCancelRequest();
+    }
 }

@@ -24,9 +24,13 @@ public class AdoptionPage {
     @FindBy(xpath = "//span[@class='text-[#D98481] dark:text-[#AF6C6A]']")
     private WebElement textRejected;
 
+    @FindBy(xpath = "//div[6]//button[@class='w-full my-1 rounded-full bg-[#D98481] dark:bg-[#AF6C6A] text-white font-medium text-xs p-1']")
+    private WebElement cancelRequest;
+
     public void clickAdoptionMenu(){
         adoptionMenu.click();
     }
+    public void clickCancelRequest(){cancelRequest.click();}
     public boolean petNameIsDisplayed(){
         textPetName.isDisplayed();
         return true;

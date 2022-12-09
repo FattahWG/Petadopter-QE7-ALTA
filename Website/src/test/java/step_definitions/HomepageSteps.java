@@ -8,6 +8,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.JavascriptExecutor;
 
 public class HomepageSteps {
     public WebDriver webDriver;
@@ -61,4 +62,5 @@ public class HomepageSteps {
     public void userGoToSeeMorePage() {
         //blank
     }
+
 }
