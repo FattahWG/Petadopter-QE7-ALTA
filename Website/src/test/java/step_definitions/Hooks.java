@@ -13,7 +13,6 @@ public class Hooks {
     public void openBrowser(){
 //        System.setProperty("webdriver.chrome.driver",
 //                System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
-
         WebDriverManager.chromedriver().setup();
         webDriver= new ChromeDriver();
         String URL = "https://pet-adopter-frontend.vercel.app/";

@@ -1,0 +1,1150 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "ownername": {
+              "type": "string"
+            },
+            "petname": {
+              "type": "string"
+            },
+            "petphoto": {
+              "type": "string"
+            },
+            "species": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "age",
+            "city",
+            "color",
+            "description",
+            "gender",
+            "id",
+            "ownername",
+            "petname",
+            "petphoto",
+            "species"
+          ]
+        }
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "code",
+    "data",
+    "message"
+  ]
+}
