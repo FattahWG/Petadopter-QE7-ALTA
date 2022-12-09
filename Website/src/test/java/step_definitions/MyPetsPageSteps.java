@@ -15,7 +15,8 @@ public class MyPetsPageSteps {
     }
 
     @Given("^User open myPets page$")
-    public void userOpenMyPetsPage() {
+    public void userOpenMyPetsPage() throws InterruptedException {
+        Thread.sleep(5000);
         MyPetsPage myPetsPage = new MyPetsPage(webDriver);
         myPetsPage.isDisplayed();
         myPetsPage.setMyPetsMenu();

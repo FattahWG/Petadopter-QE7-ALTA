@@ -29,7 +29,7 @@ public class LoginSteps {
         loginPage.inputUserName(userName);
         loginPage.inputPassword(password);
         loginPage.clickLoginButton();
-        Thread.sleep(5000);
+        Thread.sleep(10000);
     }
 
     @And("User click on pop up alert success login")
