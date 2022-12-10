@@ -55,8 +55,8 @@ Feature: API for endpoint adoptions
     And Validate get single applier json schema
     Examples:
       | adoption_id |
-      | 7           |
-      | 10          |
+      | 14          |
+      | 15          |
 
   @get
   Scenario Outline: Get single applier with invalid id
@@ -98,7 +98,7 @@ Feature: API for endpoint adoptions
 
   @delete
   Scenario: Delete pet data with valid pet_id
-    Given Delete pet data with valid pet_id 17
+    Given Delete pet data with valid pet_id 26
     When Send delete pet data request
     Then API response code should be 200 OK
 
