@@ -83,8 +83,8 @@ Feature: API for endpoint meetings
     And Validate get single meeting json schema
     Examples:
       | meeting_id |
-      | 4          |
-      | 5          |
+      | 73         |
+      | 74         |
 
   @get
   Scenario Outline: Get owner meetings with invalid id
@@ -124,7 +124,7 @@ Feature: API for endpoint meetings
 
   @delete
   Scenario: Delete meeting with valid id
-    Given Delete meeting with valid id 15
+    Given Delete meeting with valid id 4
     When Send delete meeting request
     Then API response code should be 200 OK
 
