@@ -71,7 +71,9 @@
       And Validate delete pets data json schema
       Examples:
         | id |
-        | 25 |
+        | 42 |
+#        | 48 |
+#        | 49 |
 
     @delete
     Scenario Outline: Delete Pets Data With Invalid Id
