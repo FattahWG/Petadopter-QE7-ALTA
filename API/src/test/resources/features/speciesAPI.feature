@@ -71,8 +71,10 @@
       Then Status code should return 200 OK
       And Delete species json schema
       Examples:
-        |id|
-        |13 |
+        | id |
+        | 17 |
+#        | 18 |
+#        | 19 |
 
     @delete
     Scenario Outline: Delete Species Data With Invalid Id
