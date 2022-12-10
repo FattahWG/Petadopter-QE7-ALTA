@@ -7,7 +7,7 @@
 
     Scenario: Create New Pets As Pet Owner
       Given User click icon plus for create new pets
-      When User input "Daniel" as petName on Pet Name field
+      When User input "Daniela" as petName on Pet Name field
       Then User choose pet category and gender new pets
       And User input "10" as new pets age on Age field
       Then User input "White Ash" as new pets color on Color field

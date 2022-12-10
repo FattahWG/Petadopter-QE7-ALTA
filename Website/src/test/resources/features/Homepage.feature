@@ -1,4 +1,4 @@
-@AdopterWeb @Homepage
+@Homepage
 Feature: User can interact with available menu in home page
 
   Background:
