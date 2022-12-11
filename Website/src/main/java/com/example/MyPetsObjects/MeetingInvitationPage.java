@@ -12,7 +12,7 @@ public class MeetingInvitationPage {
         this.driver = driver;
     }
 
-    @FindBy(xpath = "//div[@class='my-4 grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-12']/div[1]//button[@class='w-full rounded-full bg-[#DDFFF9] dark:bg-[#9EC8C1] text-black dark:text-white font-medium text-xs p-1']")
+    @FindBy(xpath = "//div[@class='my-4 grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-12']/div[2]//button[@class='w-full rounded-full bg-[#DDFFF9] dark:bg-[#9EC8C1] text-black dark:text-white font-medium text-xs p-1']")
     private WebElement createMeeting;
     @FindBy(id = "inputDate")
     private WebElement inputDate;

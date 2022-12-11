@@ -67,8 +67,12 @@ public class MyPetsPage {
     private WebElement profileDescriptions;
 
 //    Delete Pets
-    @FindBy(css = "div:nth-of-type(9) .w-full > .w-full")
+    @FindBy(css = "div:nth-of-type(10) .w-full > .w-full")
     private WebElement seeMoreDelete;
+    @FindBy(css = ".my-4 > div:nth-of-type(4) .w-full > .w-full")
+    private WebElement seeMoreDelete1;
+    @FindBy(css = ".my-4 > div:nth-of-type(3) .w-full > .w-full")
+    private WebElement seeMoreDelete2;
     @FindBy(css = ".mx-1 > [stroke='currentColor']")
     private WebElement deletePets;
 
@@ -150,6 +154,12 @@ public class MyPetsPage {
 //    Delete Pets
     public void setSeeMoreDelete(){
         seeMoreDelete.click();
+    }
+    public void setSeeMoreDelete1(){
+        seeMoreDelete1.click();
+    }
+    private void setSeeMoreDelete2(){
+        seeMoreDelete2.click();
     }
     public void setDeletePets(){
         deletePets.click();

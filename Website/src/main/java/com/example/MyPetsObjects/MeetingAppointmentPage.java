@@ -54,10 +54,14 @@ public class MeetingAppointmentPage {
     @FindBy(css = ".bg-accent")
     private WebElement cancelUpdate;
 
-    @FindBy(xpath = "//div[8]//button[.='Done']")
+    @FindBy(xpath = "//div[15]//button[.='Done']")
     private WebElement doneMeeting;
-    @FindBy(css = "div:nth-of-type(6) .bg-red-500")
+    @FindBy(xpath = "//div[16]//button[.='Done']")
+    private WebElement doneMeeting1;
+    @FindBy(xpath = "//div[13]//button[@class='w-16 md:w-20 text-md md:text-lg rounded-lg font-Poppins bg-red-500']")
     private WebElement cancelMeeting;
+    @FindBy(xpath = "//div[12]//button[@class='w-16 md:w-20 text-md md:text-lg rounded-lg font-Poppins bg-red-500']")
+    private WebElement cancelMeeting1;
 
     public boolean isDisplayed(){
         kebabMenu.isDisplayed();
@@ -126,7 +130,13 @@ public class MeetingAppointmentPage {
     public void setDoneMeeting(){
         doneMeeting.click();
     }
+    public void setDoneMeeting1(){
+        doneMeeting1.click();
+    }
     public void setCancelMeeting(){
         cancelMeeting.click();
+    }
+    public void setCancelMeeting1(){
+        cancelMeeting1.click();
     }
 }

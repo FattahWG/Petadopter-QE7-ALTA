@@ -6,7 +6,7 @@
       And User click on pop up alert success login
 
     @test
-    Scenario: View Appliers My Pets As Pet Owner
+    Scenario: Accept Appliers My Pets As Pet Owner
       Given User open myPets page
       When User will get routed to the myPets page
       Then User click see more button for detail
