@@ -4,14 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b50c5349-9468-490d-a0cb-7e6cccebf5c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b50c5349-9468-490d-a0cb-7e6cccebf5c0" name="Changes" comment="Revision">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_3_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_core_3_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_httpclient5_3_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_h2_5_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_brotli_dec_0_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetAdopter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/MeetingAppointmentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/MeetingAppointmentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/MyPetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/MyPetsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/ViewApplierPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/ViewApplierPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MyPetsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MyPetsPageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AppliersPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AppliersPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MyPetsPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MyPetsPage.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +76,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LENOVO/Petadopter-QE7-ALTA/Website&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/LENOVO/Petadopter-QE7-ALTA/Website",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Petadopter-QE7-ALTA\Website\src\test\resources\features" />
@@ -78,16 +97,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RunCukesTest (1)">
-    <configuration name="Scenario: Login with username and password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Login without username or password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Petadopter-QE7-ALTA" />
-      <option name="NAME_FILTER" value="^Login with username and password$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login with username and password$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login with username and password" />
+      <option name="NAME_FILTER" value="^Login without username or password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login without username or password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login without username or password" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -99,15 +117,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login without username or password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: MyPets Page As Pet Owner" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MyPetsPage.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Petadopter-QE7-ALTA" />
-      <option name="NAME_FILTER" value="^Login without username or password$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login without username or password$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login without username or password" />
+      <module name="PetAdopter" />
+      <option name="NAME_FILTER" value="^MyPets Page As Pet Owner$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^MyPets Page As Pet Owner$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: MyPets Page As Pet Owner" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -170,19 +188,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Scenario: MyPets Page As Pet Owner" />
       <item itemvalue="Cucumber Java.Scenario: View Appliers My Pets As Pet Owner" />
       <item itemvalue="Cucumber Java.Scenario: Login without username or password" />
-      <item itemvalue="Cucumber Java.Scenario: Login with username and password" />
       <item itemvalue="JUnit.RunCukesTest (1)" />
       <item itemvalue="JUnit.RunCukesTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunCukesTest (1)" />
+        <item itemvalue="Cucumber Java.Scenario: MyPets Page As Pet Owner" />
         <item itemvalue="Cucumber Java.Scenario: View Appliers My Pets As Pet Owner" />
         <item itemvalue="JUnit.RunCukesTest" />
         <item itemvalue="Cucumber Java.Scenario: Login without username or password" />
-        <item itemvalue="Cucumber Java.Scenario: Login with username and password" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +213,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670230073424</updated>
     </task>
+    <task id="LOCAL-00001" summary="Revision">
+      <created>1670738311448</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670738311448</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,5 +233,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revision" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revision" />
   </component>
 </project>

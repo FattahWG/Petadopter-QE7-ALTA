@@ -5,6 +5,7 @@
       When User input "thuk" as userName and "thuk" as password
       And User click on pop up alert success login
 
+      @profilemypets
     Scenario: MyPets Page As Pet Owner
       Given User open myPets page
       When User will get routed to the myPets page

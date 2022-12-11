@@ -42,7 +42,7 @@ public class MyPetsPageSteps {
         myPetsPage.setProfileImage();
         myPetsPage.setProfileName();
         myPetsPage.setProfileOwnerName();
-        myPetsPage.setProfileSpecies();
+//        myPetsPage.setProfileSpecies();
         myPetsPage.setProfileCity();
         myPetsPage.setProfileDetail();
         myPetsPage.setProfileTextGender();

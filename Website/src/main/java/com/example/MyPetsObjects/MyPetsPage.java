@@ -35,7 +35,7 @@ public class MyPetsPage {
     private WebElement firstPetsAge;
 
 //    Profile Pets
-    @FindBy(css = ".my-4 > div:nth-of-type(1) .w-full > .w-full")
+    @FindBy(xpath = "//div[@class='my-4 grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-12']/div[1]//button[@class='w-full rounded-full bg-[#FFC700] dark:bg-[#CDA000] text-white font-medium text-xs p-1']")
     private WebElement seeMoreButton;
     @FindBy(css = ".rounded-md")
     private WebElement profileImage;
@@ -43,9 +43,9 @@ public class MyPetsPage {
     private WebElement profileName;
     @FindBy(css = "h2")
     private WebElement profileOwnerName;
-    @FindBy(css = ".italic")
+    @FindBy(xpath = ".italic")
     private WebElement profileSpecies;
-    @FindBy(xpath = "//p[@class='md:text-lg']")
+    @FindBy(css = ".p-4 > div > div:nth-of-type(2) > p")
     private WebElement profileCity;
     @FindBy(xpath = "//h3[.='Detail']")
     private WebElement profileDetail;
@@ -67,7 +67,7 @@ public class MyPetsPage {
     private WebElement profileDescriptions;
 
 //    Delete Pets
-    @FindBy(css = "div:nth-of-type(10) .w-full > .w-full")
+    @FindBy(css = "div:nth-of-type(9) .w-full > .w-full")
     private WebElement seeMoreDelete;
     @FindBy(css = ".my-4 > div:nth-of-type(4) .w-full > .w-full")
     private WebElement seeMoreDelete1;
