@@ -24,10 +24,16 @@ public class ViewApplierPage {
     private WebElement appliersName;
     @FindBy(css = ".my-4 > div:nth-of-type(1) p")
     private WebElement appliersMessage;
-    @FindBy(xpath = "//div[3]//button[@class='w-1/2 rounded-full bg-[#FFC700] dark:bg-[#CDA000] text-white font-medium text-xs p-1']")
+    @FindBy(xpath = "//div[13]//button[@class='w-1/2 rounded-full bg-[#FFC700] dark:bg-[#CDA000] text-white font-medium text-xs p-1']")
     private WebElement acceptButton;
-    @FindBy(xpath = "//div[4]//button[@class='w-1/2 ml-4 rounded-full bg-[#D98481] dark:bg-[#AF6C6A] text-white font-medium text-xs p-1']")
+    @FindBy(xpath = "//div[14]//button[@class='w-1/2 rounded-full bg-[#FFC700] dark:bg-[#CDA000] text-white font-medium text-xs p-1']")
+    private WebElement acceptButton1;
+    @FindBy(xpath = "////div[15]//button[@class='w-1/2 rounded-full bg-[#FFC700] dark:bg-[#CDA000] text-white font-medium text-xs p-1']")
+    private WebElement acceptButton2;
+    @FindBy(xpath = "//div[12]//button[@class='w-1/2 ml-4 rounded-full bg-[#D98481] dark:bg-[#AF6C6A] text-white font-medium text-xs p-1']")
     private WebElement declineButton;
+    @FindBy(xpath = "//div[16]//button[@class='w-1/2 ml-4 rounded-full bg-[#D98481] dark:bg-[#AF6C6A] text-white font-medium text-xs p-1']")
+    private WebElement declineButton1;
 
     public boolean isDisplayed(){
         viewAppliers.isDisplayed();
@@ -51,7 +57,16 @@ public class ViewApplierPage {
     public void setAcceptButton(){
         acceptButton.click();
     }
+    public void setAcceptButton1(){
+        acceptButton1.click();
+    }
+    public void setAcceptButton2(){
+        acceptButton2.click();
+    }
     public void setDeclineButton(){
         declineButton.click();
+    }
+    public void setDeclineButton1(){
+        declineButton1.click();
     }
 }
