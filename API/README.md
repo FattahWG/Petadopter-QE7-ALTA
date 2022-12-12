@@ -4,7 +4,7 @@
 
 <div align="center" dir="auto">
   <a href="https://pet-adopter-frontend.vercel.app/" rel="nofollow">
-    <img src="https://github.com/FattahWG/Draft-Image/blob/main/logo.png" width="400" height="144" style="max-width: 100%;">
+    <img src="https://github.com/FattahWG/Draft-Image/blob/main/logo.png" width="400">
   </a>
 </div>
 
