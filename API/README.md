@@ -1,13 +1,12 @@
 <h1 dir="auto"><a id="user-content--about-the-project" class="anchor" aria-hidden="true" href="#-about-the-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>PET ADOPTER CAPSTONE PROJECT - API AUTOMATION TESTING- QE 7 - TEAM JOKI 3IN1</h1>
 
-<h2 dir="auto"><a id="user-content--our-teams" class="anchor" aria-hidden="true" href="#-our-teams"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><g-emoji class="g-emoji" alias="iphone" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f1.png"><img class="emoji" alt="iphone" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f1.png"></g-emoji> Our teams</h2>
+<h2 dir="auto"><a id="user-content--our-teams" class="anchor" aria-hidden="true" href="#-our-teams"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><g-emoji class="g-emoji" alias="iphone" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f1.png"><img class="emoji" alt="iphone" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f1.png"></g-emoji> Our teams:</h2>
 
-
-<p align="justify" dir="auto">Arsenio Reinhard Soriano</p>
-
-<p align="justify" dir="auto">Intan Mahdia Izzati</p>
-
-<p align="justify" dir="auto">Fattah Widjaya Gandhi</p>
+<a href="https://github.com/arsasoriano"><img src="https://img.shields.io/badge/GitHub-Arseno%20Reinhard%20Soriano-white?style=for-the-badge&amp;logo=github&amp;color=white&amp;labelColor=white&amp;logoColor=black" alt="GitHub" data-canonical-src="https://img.shields.io/badge/GitHub-Arseno%20Reinhard%20Soriano-white?style=for-the-badge&amp;logo=github&amp;color=white&amp;labelColor=white&amp;logoColor=black" style="max-width: 100%;"></a></p>
+<br>
+<p dir="auto"><a href="https://github.com/fattahWG"><img src="https://img.shields.io/badge/GitHub-Fattah%20Widjaya%20Gandhi-white?style=for-the-badge&amp;logo=github&amp;color=white&amp;labelColor=white&amp;logoColor=black" alt="GitHub" data-canonical-src="https://img.shields.io/badge/GitHub-Fattah%20Widjaya%20Gandhi-white?style=for-the-badge&amp;logo=github&amp;color=white&amp;labelColor=white&amp;logoColor=black" style="max-width: 100%;"></a> 
+<br>
+<a href="https://github.com/imi909"><img src="https://img.shields.io/badge/GitHub-Intan%20Mahdia%20Izzati-white?style=for-the-badge&amp;logo=github&amp;color=white&amp;labelColor=white&amp;logoColor=black" alt="GitHub" data-canonical-src="https://img.shields.io/badge/GitHub-Intan%20Mahdia%20Izzati-white?style=for-the-badge&amp;logo=github&amp;color=white&amp;labelColor=white&amp;logoColor=black" style="max-width: 100%;"></a> <br>
 
 <div align="center" dir="auto">
   <a href="https://pet-adopter-frontend.vercel.app/" rel="nofollow">
@@ -24,13 +23,11 @@
 <p><a href="https://docs.google.com/spreadsheets/d/1dZ_OUh3QXn6PVclolyX4eECcvwnayEbnY9SmQR9M9-w/edit?usp=sharing" rel="nofollow">1. Test Case API</a></p>
 <p><a href="https://petadopter.postman.co/workspace/Petadopter-QE7-ALTA~21e17fd0-14c6-4a34-acc8-64e33c78907b/overview" rel="nofollow">2. Test Manual API with Postman</a></p>
 
-
 <h2 dir="auto"><a id="user-content--testing-documentation" class="anchor" aria-hidden="true" href="#-testing-documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><g-emoji class="g-emoji" alias="notebook" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d3.png"><img class="emoji" alt="notebook" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d3.png"></g-emoji> Result API Testing</h2>
 
 <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/FattahWG/Draft-Image/blob/main/result_API_AutomationTesting.jpg"><img src="https://github.com/FattahWG/Draft-Image/blob/main/result_API_AutomationTesting.jpg" alt="report-api-running-automation" style="max-width: 100%;"></a></p>
 
 <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/FattahWG/Draft-Image/blob/main/Result2_API_AUTOMATION.jpg"><img src="https://github.com/FattahWG/Draft-Image/blob/main/Result2_API_AUTOMATION.jpg" alt="report-api-running-automation" style="max-width: 100%;"></a></p>
-
 
 <h2 dir="auto"><a id="user-content--tools" class="anchor" aria-hidden="true" href="#-tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><g-emoji class="g-emoji" alias="hammer_and_wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png"><img class="emoji" alt="hammer_and_wrench" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png"></g-emoji> Technology Stack</h2>
 
@@ -42,8 +39,7 @@
 
 <p dir="auto"><strong>Team Management:</strong></p>
 
-
-<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/2a3cdfca8e9ce9bce0aa243aabbb2a8c9b836065d973948b83581fafc33f7f2b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5472656c6c6f2d2532333032364141372e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d5472656c6c6f266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/2a3cdfca8e9ce9bce0aa243aabbb2a8c9b836065d973948b83581fafc33f7f2b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5472656c6c6f2d2532333032364141372e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d5472656c6c6f266c6f676f436f6c6f723d7768697465" alt="Discord" data-canonical-src="https://img.shields.io/badge/Trello-%237289DA.svg?style=for-the-badge&amp;logo=discord&amp;logoColor=white" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/2a3cdfca8e9ce9bce0aa243aabbb2a8c9b836065d973948b83581fafc33f7f2b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5472656c6c6f2d2532333032364141372e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d5472656c6c6f266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/2a3cdfca8e9ce9bce0aa243aabbb2a8c9b836065d973948b83581fafc33f7f2b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5472656c6c6f2d2532333032364141372e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d5472656c6c6f266c6f676f436f6c6f723d7768697465" alt="Trello" data-canonical-src="https://img.shields.io/badge/Trello-%237289DA.svg?style=for-the-badge&amp;logo=discord&amp;logoColor=white" style="max-width: 100%;"></a>
 
 
 <p dir="auto"><strong>Automation Testing:</strong><br>
