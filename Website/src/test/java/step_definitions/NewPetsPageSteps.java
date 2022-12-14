@@ -19,7 +19,7 @@ public class NewPetsPageSteps {
         NewPetsPage newPetsPage = new NewPetsPage(webDriver);
         newPetsPage.isDisplayed();
         newPetsPage.setNewPets();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
     }
 
     @When("^User input \"([^\"]*)\" as petName on Pet Name field$")
@@ -73,7 +73,7 @@ public class NewPetsPageSteps {
     public void userClickSaveButtonForNewPets() throws InterruptedException {
         NewPetsPage newPetsPage = new NewPetsPage(webDriver);
         newPetsPage.setSaveNewPets();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
     }
 
     @And("^User click cancel button$")

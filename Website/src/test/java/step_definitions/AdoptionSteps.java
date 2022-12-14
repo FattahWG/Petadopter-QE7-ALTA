@@ -34,8 +34,6 @@ public class AdoptionSteps {
         AdoptionPage adoptionPage = new AdoptionPage(webDriver);
         adoptionPage.clickAdoptionMenu();
         Thread.sleep(5000);
-        adoptionPage.petNameIsDisplayed();
-        Thread.sleep(3000);
     }
 
     @When("user go to adoption history")

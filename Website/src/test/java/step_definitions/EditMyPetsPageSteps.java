@@ -81,4 +81,5 @@ public class EditMyPetsPageSteps {
         EditMyPetsPage editMyPetsPage = new EditMyPetsPage(webDriver);
         editMyPetsPage.setCancelButton();
     }
+
 }

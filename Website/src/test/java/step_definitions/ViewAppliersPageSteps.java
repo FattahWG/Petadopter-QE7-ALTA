@@ -34,7 +34,7 @@ public class ViewAppliersPageSteps {
     public void userAcceptApplierRequest() throws InterruptedException {
         ViewApplierPage viewApplierPage = new ViewApplierPage(webDriver);
         viewApplierPage.setAcceptButton();
-        Thread.sleep(3000);
+        Thread.sleep(7000);
         webDriver.switchTo().alert().accept();
     }
 
@@ -42,7 +42,7 @@ public class ViewAppliersPageSteps {
     public void userRejectApplierRequest() throws InterruptedException {
         ViewApplierPage viewApplierPage = new ViewApplierPage(webDriver);
         viewApplierPage.setDeclineButton();
-        Thread.sleep(3000);
+        Thread.sleep(7000);
         webDriver.switchTo().alert().accept();
     }
 }

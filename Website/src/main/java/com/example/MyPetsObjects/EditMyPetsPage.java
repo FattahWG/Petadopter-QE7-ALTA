@@ -13,7 +13,7 @@ public class EditMyPetsPage {
     }
 
     public static final String DIR = System.getProperty("user.dir");
-    public static final String PHOTO = DIR + "\\src\\test\\resources\\photo\\";
+    public static final String PHOTO = DIR + "/src/test/resources/photo/";
 
     @FindBy(xpath = "//button[@class='mx-2']")
     private WebElement editButton;
@@ -41,6 +41,8 @@ public class EditMyPetsPage {
     private WebElement saveButton;
     @FindBy(css = ".btn-accent")
     private WebElement cancelButton;
+    @FindBy(xpath = "//div[@class='my-4 grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-12']/div[1]//button[@class='w-full my-1 rounded-full bg-[#D98481] dark:bg-[#AF6C6A] text-white font-medium text-xs p-1']")
+    private WebElement cancelRequestButton;
 
     public boolean isDisplayed(){
         editButton.isDisplayed();
@@ -89,4 +91,5 @@ public class EditMyPetsPage {
     public void setCancelButton(){
         cancelButton.click();
     }
+    public void cancelRequest(){cancelRequestButton.click();}
 }

@@ -29,13 +29,13 @@ public class LoginSteps {
         loginPage.inputUserName(userName);
         loginPage.inputPassword(password);
         loginPage.clickLoginButton();
-        Thread.sleep(10000);
+        Thread.sleep(7000);
     }
 
     @And("User click on pop up alert success login")
     public void userClickOnPopUpAlertSuccessLogin()throws InterruptedException {
-        webDriver.switchTo().alert().accept();
         Thread.sleep(5000);
+        webDriver.switchTo().alert().accept();
     }
 
     @Then("User go to home page")
@@ -57,4 +57,10 @@ public class LoginSteps {
         Thread.sleep(1000);
     }
 
+    @Then("^user click logout$")
+    public void userClickLogout() {
+        LoginPage loginPage = new LoginPage(webDriver);
+        loginPage.clickLogoutButton();
+
+    }
 }

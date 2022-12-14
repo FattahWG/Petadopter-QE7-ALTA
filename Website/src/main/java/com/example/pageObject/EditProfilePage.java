@@ -19,7 +19,7 @@ public class EditProfilePage {
     }
 
     public static final String DIR = System.getProperty("user.dir");
-    public static final String FILEPATH = DIR+"\\src\\test\\resources\\photo\\";
+    public static final String FILEPATH = DIR+"/src/test/resources/photo/";
 
     @FindBy(id = "inputFile")
     private WebElement chooseFileField;

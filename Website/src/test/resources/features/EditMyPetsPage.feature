@@ -2,9 +2,10 @@
   Feature: Edit MyPets Page
     Background: Login Scenario As Pet Owner
       Given User open the web page
-      When User input "thuk" as userName and "thuk" as password
+      When User input "12fattah" as userName and "12345abcde" as password
       And User click on pop up alert success login
 
+    @positive
     Scenario: Edit My Pets As Pet Owner
       Given User open myPets page
       When User will get routed to the myPets page
@@ -18,6 +19,7 @@
       Then User upload photo of the pets
       And User click save button
 
+    @positive
     Scenario: Cancel Edit My Pets
       Given User open myPets page
       When User will get routed to the myPets page

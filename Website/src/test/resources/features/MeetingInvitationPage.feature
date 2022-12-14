@@ -1,10 +1,11 @@
 @MeetingInvitationPage
-  Feature: Create Meeting Invitation
+Feature: Create Meeting Invitation
     Background: Login Scenario As Pet Owner
       Given User open the web page
-      When User input "thuk" as userName and "thuk" as password
+      When User input "owner1" as userName and "123" as password
       And User click on pop up alert success login
 
+    @positive
     Scenario: Create Meeting Invitation As Pet Owner
       Given User open myPets page
       When User will get routed to the myPets page
@@ -16,7 +17,8 @@
       And User set the time on "09" and the minute on "19"
       Then User click add button
 
-    Scenario: Cancel Meeting Invitation As Pet Owner
+    @positive
+    Scenario: Cancel create Invitation As Pet Owner
       Given User open myPets page
       When User will get routed to the myPets page
       Then User click see more button for detail

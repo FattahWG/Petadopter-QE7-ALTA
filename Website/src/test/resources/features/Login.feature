@@ -5,7 +5,7 @@ Feature: Login feature
   @positive
   Scenario: Login with username and password
     Given User open the web page
-    When User input "a" as userName and "a" as password
+    When User input "test" as userName and "test" as password
     And User click on pop up alert success login
     Then User go to home page
 

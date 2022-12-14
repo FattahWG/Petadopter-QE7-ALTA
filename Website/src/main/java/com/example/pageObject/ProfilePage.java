@@ -17,8 +17,11 @@ public class ProfilePage {
 
     @FindBy(xpath = "//button[@class='w-72 text-primary font-Poppins text-md md:text-xl py-1 md:py-2 mb-4 rounded-lg font-bold border-2 border-primary']")
     private WebElement editProfileButton;
+    @FindBy(css = ".bg-red-500")
+    private WebElement deleteButton;
 
     public void clickEditProfileButton(){
         editProfileButton.click();
     }
+    public void DeleteProfile(){deleteButton.click();}
 }

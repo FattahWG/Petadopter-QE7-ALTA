@@ -15,7 +15,6 @@ public class MeetingInvitationPageSteps {
     @And("^User click create meeting button$")
     public void userClickCreateMeetingButton() throws InterruptedException {
         MeetingInvitationPage meetingAppointmentPage = new MeetingInvitationPage(webDriver);
-        meetingAppointmentPage.isDisplayed();
         meetingAppointmentPage.setCreateMeeting();
         Thread.sleep(3000);
     }

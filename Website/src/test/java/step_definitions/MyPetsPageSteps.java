@@ -60,13 +60,11 @@ public class MyPetsPageSteps {
     public void userClickSeeMoreForDeletePets() throws InterruptedException {
         MyPetsPage myPetsPage = new MyPetsPage(webDriver);
         myPetsPage.setSeeMoreDelete();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
     }
 
     @And("^User click bin icon$")
     public void userClickBinIcon() throws InterruptedException {
-        MyPetsPage myPetsPage = new MyPetsPage(webDriver);
-        myPetsPage.setDeletePets();
         Thread.sleep(3000);
         webDriver.switchTo().alert().accept();
     }

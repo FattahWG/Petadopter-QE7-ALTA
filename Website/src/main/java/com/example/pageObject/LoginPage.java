@@ -21,6 +21,10 @@ public class LoginPage {
     private WebElement passwordField;
     @FindBy(xpath = "//a[.='Sign up here']")
     private WebElement SignUpButton;
+    @FindBy(css = ".text-left")
+    private WebElement logOut;
+    @FindBy(id = "loginButton")
+    private WebElement loginButton;
 
     public void inputUserName(String username){
         userNameField.sendKeys(username);
@@ -31,6 +35,9 @@ public class LoginPage {
     public void clickLoginButton(){
         loginButton.click();
     }
+    public void clickLogoutButton(){
+        logOut.click();
+    }
     public boolean userNameIsDisplayed(){
         userNameField.isDisplayed();
         return true;
@@ -40,38 +47,5 @@ public class LoginPage {
         return userNameField.getText();
     }
 
-    @FindBy(id = "inputUsername")
-    private WebElement username;
 
-    @FindBy(xpath = "//input[@id='inputPassword']")
-    private WebElement password;
-
-    @FindBy(xpath = "//h3")
-    private WebElement errorMessage;
-
-    @FindBy(id = "loginButton")
-    private WebElement loginButton;
-
-    @FindBy(xpath ="//a[@class='bs-alert-close']")
-    private WebElement LogOk;
-
-
-    public void setUsername(String user){
-        username.sendKeys(user);
-    }
-
-    public void setPassword(String pwd){
-        password.sendKeys(pwd);
-    }
-
-    public void clickLogin(){
-        loginButton.click();
-    }
-    public void clickLogin1(){
-    }
-
-    public boolean isDisplayed(){
-        username.isDisplayed();
-        return true;
-    }
 }

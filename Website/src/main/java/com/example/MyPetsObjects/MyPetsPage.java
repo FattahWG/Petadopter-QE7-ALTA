@@ -67,7 +67,7 @@ public class MyPetsPage {
     private WebElement profileDescriptions;
 
 //    Delete Pets
-    @FindBy(css = "div:nth-of-type(10) .w-full > .w-full")
+    @FindBy(xpath = "//button[@class='mx-1']")
     private WebElement seeMoreDelete;
     @FindBy(css = ".my-4 > div:nth-of-type(4) .w-full > .w-full")
     private WebElement seeMoreDelete1;

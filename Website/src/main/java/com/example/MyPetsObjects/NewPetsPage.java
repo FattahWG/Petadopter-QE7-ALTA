@@ -13,7 +13,7 @@ public class NewPetsPage {
     }
 
     public static final String DIR = System.getProperty("user.dir");
-    public static final String FILEPATH = DIR + "\\src\\test\\resources\\photo\\";
+    public static final String FILEPATH = DIR + "/src/test/resources/photo/";
 
     @FindBy(css = ".right-4 > div:nth-of-type(3) > [stroke='currentColor']")
     private WebElement newPets;

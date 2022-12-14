@@ -6,6 +6,7 @@ import com.example.pageObject.MorePage;
 import com.example.pageObject.ProfilePage;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
@@ -25,13 +26,13 @@ public class EditProfileSteps {
         HomePage homePage = new HomePage(webDriver);
         MorePage morePage = new MorePage(webDriver);
         ProfilePage profilePage = new ProfilePage(webDriver);
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         homePage.clickMoreButton();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         morePage.clickMyProfileButton();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         profilePage.clickEditProfileButton();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
     }
 
     @When("user select file photo as photo profile")
@@ -88,8 +89,26 @@ public class EditProfileSteps {
     @Then("user will see error alert with message \"(.*)\"")
     public void userWillSeeErrorAlertWithMessageCantInputExistingData(String alertMessage)throws InterruptedException{
         Assert.assertEquals(alertMessage,webDriver.switchTo().alert().getText());
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         webDriver.switchTo().alert().accept();
         Thread.sleep(1000);
+    }
+
+    @Given("^user go to profile page$")
+    public void userGoToProfilePage() throws InterruptedException{
+//        HomePage homePage = new HomePage(webDriver);
+//        MorePage morePage = new MorePage(webDriver);
+//        Thread.sleep(5000);
+//        homePage.clickMoreButton();
+//        Thread.sleep(5000);
+//        morePage.clickMyProfileButton();
+//        Thread.sleep(5000);
+
+    }
+
+    @Then("^user click delete account button$")
+    public void userClickDeleteAccountButton() {
+//        ProfilePage profilePage = new ProfilePage(webDriver);
+//        profilePage.DeleteProfile();
     }
 }

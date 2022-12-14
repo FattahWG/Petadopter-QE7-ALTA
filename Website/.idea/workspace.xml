@@ -5,13 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b50c5349-9468-490d-a0cb-7e6cccebf5c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/deleteUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/logout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../API/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/EditMyPetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/EditMyPetsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/MeetingAppointmentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/MeetingAppointmentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/MeetingInvitationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/MeetingInvitationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/MyPetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/MyPetsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/NewPetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/NewPetsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/ViewApplierPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyPetsObjects/ViewApplierPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pageObject/AdoptionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/pageObject/AdoptionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pageObject/EditProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/pageObject/EditProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/pageObject/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pageObject/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/pageObject/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/AdoptionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/AdoptionSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/EditMyPetsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/EditMyPetsPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/EditProfileSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/EditProfileSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MeetingAppointmentPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MeetingAppointmentPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MeetingInvitationPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MeetingInvitationPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MyPetsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MyPetsPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/NewPetsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/NewPetsPageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/ViewAppliersPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/ViewAppliersPageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/AppliersPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AppliersPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/EditMyPetsPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/EditMyPetsPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/EditProfile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/EditProfile.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MeetingAppointmentPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MeetingAppointmentPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MeetingInvitationPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MeetingInvitationPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MyPetsPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MyPetsPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/NewPetsPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/NewPetsPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Register.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +77,39 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectCucumberState">
-    <option name="selection" value="" />
+    <option name="selectedTags">
+      <list>
+        <option value="@adoption" />
+        <option value="@AppliersPage" />
+        <option value="@Delete" />
+        <option value="@EditMyPetsPage" />
+        <option value="@editProfile" />
+        <option value="@Homepage" />
+        <option value="@login" />
+        <option value="@logout" />
+        <option value="@MeetingAppointmentPage" />
+        <option value="@MeetingInvitationPage" />
+        <option value="@MyPetsPage" />
+        <option value="@NewPetsPage" />
+        <option value="@register" />
+      </list>
+    </option>
+    <option name="selection" value="@adoption or @AppliersPage or @Delete or @EditMyPetsPage or @editProfile or @Homepage or @login or @logout or @MeetingAppointmentPage or @MeetingInvitationPage or @MyPetsPage or @NewPetsPage or @register" />
   </component>
   <component name="ProjectId" id="2IUJ8iVIee6lOkPVsYYFf1Aj4xD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LENOVO/Petadopter-QE7-ALTA/Website&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/fattah/Documents/GitHub/November/TEAM2-SegoroAPI&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
@@ -77,57 +124,15 @@
       <recent name="com.example.MyPetsObjects" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunCukesTest (1)">
-    <configuration name="Scenario: Login with username and password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RunCukesTest">
+    <configuration name="Feature: Adoption" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Petadopter-QE7-ALTA" />
-      <option name="NAME_FILTER" value="^Login with username and password$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login with username and password$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login with username and password" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Login without username or password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Petadopter-QE7-ALTA" />
-      <option name="NAME_FILTER" value="^Login without username or password$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login without username or password$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login without username or password" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: View Appliers My Pets As Pet Owner" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AppliersPage.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Adoption.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="PetAdopter" />
-      <option name="NAME_FILTER" value="^View Appliers My Pets As Pet Owner$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^View Appliers My Pets As Pet Owner$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: View Appliers My Pets As Pet Owner" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Adoption" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -139,23 +144,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunCukesTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Edit My Pets As Pet Owner" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/EditMyPetsPage.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="PetAdopter" />
+      <option name="NAME_FILTER" value="^Edit My Pets As Pet Owner$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Edit My Pets As Pet Owner$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Edit My Pets As Pet Owner" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="step_definitions.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="step_definitions.RunCukesTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/logout.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="PetAdopter" />
+      <option name="NAME_FILTER" value="^User logout$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User logout$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User logout" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify selected pet to adopt by user will appeared on adoption history" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Adoption.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="PetAdopter" />
+      <option name="NAME_FILTER" value="^Verify selected pet to adopt by user will appeared on adoption history$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify selected pet to adopt by user will appeared on adoption history$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify selected pet to adopt by user will appeared on adoption history" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="RunCukesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Petadopter-QE7-ALTA" />
+      <module name="PetAdopter" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="step_definitions.*" />
@@ -170,19 +220,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Scenario: View Appliers My Pets As Pet Owner" />
-      <item itemvalue="Cucumber Java.Scenario: Login without username or password" />
-      <item itemvalue="Cucumber Java.Scenario: Login with username and password" />
-      <item itemvalue="JUnit.RunCukesTest (1)" />
+      <item itemvalue="Cucumber Java.Scenario: Verify selected pet to adopt by user will appeared on adoption history" />
+      <item itemvalue="Cucumber Java.Feature: Adoption" />
+      <item itemvalue="Cucumber Java.Scenario: Edit My Pets As Pet Owner" />
+      <item itemvalue="Cucumber Java.Scenario: User logout" />
       <item itemvalue="JUnit.RunCukesTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RunCukesTest (1)" />
-        <item itemvalue="Cucumber Java.Scenario: View Appliers My Pets As Pet Owner" />
         <item itemvalue="JUnit.RunCukesTest" />
-        <item itemvalue="Cucumber Java.Scenario: Login without username or password" />
-        <item itemvalue="Cucumber Java.Scenario: Login with username and password" />
+        <item itemvalue="Cucumber Java.Scenario: Verify selected pet to adopt by user will appeared on adoption history" />
+        <item itemvalue="Cucumber Java.Feature: Adoption" />
+        <item itemvalue="Cucumber Java.Scenario: Edit My Pets As Pet Owner" />
+        <item itemvalue="Cucumber Java.Scenario: User logout" />
       </list>
     </recent_temporary>
   </component>
@@ -207,5 +257,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

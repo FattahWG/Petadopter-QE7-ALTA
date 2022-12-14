@@ -13,7 +13,7 @@ public class AdoptionPage {
         this.driver = driver;
 
     }
-    @FindBy(xpath = "//div[@class='flex justify-between items-center p-6 font-medium text-lg lg:text-xl']//h3[.='Adoption']")
+    @FindBy(css = ".mx-12 > h3")
     private WebElement adoptionMenu;
     @FindBy(xpath = "//h1[.='kilian']")
     private WebElement textPetName;
@@ -24,7 +24,7 @@ public class AdoptionPage {
     @FindBy(xpath = "//span[@class='text-[#D98481] dark:text-[#AF6C6A]']")
     private WebElement textRejected;
 
-    @FindBy(xpath = "//div[6]//button[@class='w-full my-1 rounded-full bg-[#D98481] dark:bg-[#AF6C6A] text-white font-medium text-xs p-1']")
+    @FindBy(xpath = "//div[5]//button[@class='w-full my-1 rounded-full bg-[#D98481] dark:bg-[#AF6C6A] text-white font-medium text-xs p-1']")
     private WebElement cancelRequest;
 
     public void clickAdoptionMenu(){

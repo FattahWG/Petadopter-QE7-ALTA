@@ -88,7 +88,7 @@ public class MeetingAppointmentPageSteps {
     public void userClickDoneButtonForMeetingAppointment() throws InterruptedException {
         MeetingAppointmentPage meetingAppointmentPage = new MeetingAppointmentPage(webDriver);
         meetingAppointmentPage.setDoneMeeting();
-        Thread.sleep(3000);
+        Thread.sleep(7000);
         webDriver.switchTo().alert().accept();
     }
 
@@ -96,7 +96,7 @@ public class MeetingAppointmentPageSteps {
     public void userClickCancelMeetingForMeetingAppointment() throws InterruptedException {
         MeetingAppointmentPage meetingAppointmentPage = new MeetingAppointmentPage(webDriver);
         meetingAppointmentPage.setCancelMeeting();
-        Thread.sleep(3000);
+        Thread.sleep(7000);
         webDriver.switchTo().alert().accept();
     }
 }
